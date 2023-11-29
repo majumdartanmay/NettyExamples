@@ -12,14 +12,14 @@ import server.handlers.EchoServerHandler;
 import java.net.InetSocketAddress;
 
 public class EchoServer {
-
+    public static final int PORT = 8899;
     private final int port;
     public EchoServer(int port) {
         this.port = port;
     }
 
     public static void main(final String... arg0) {
-        final EchoServer server = new EchoServer(8899);
+        final EchoServer server = new EchoServer(PORT);
         try (final EventLoopGroup group = new NioEventLoopGroup()) {
             final ServerBootstrap bootstrap = new ServerBootstrap();
             bootstrap.group(group)
