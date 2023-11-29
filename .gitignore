@@ -1,0 +1,58 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+workspace.xml
+tasks.xml
+usage.statistics.xml
+dictionaries
+shelf
+
+# IntelliJ IDEA plugin specific files
+.idea_modules/
+.idea/**/mongoSettings.xml
+
+# IntelliJ IDEA caches
+.idea/**/caches/build_file_checksums.ser
+
+# IntelliJ IDEA serialized cache file
+.idea/caches/scopes_registry.ser
+
+# IntelliJ IDEA Gradle and Maven with auto-import
+.idea/artifacts
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/modules.xml
+.idea/*.iml
+.idea/modules
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
