@@ -1,58 +1,26 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-# IntelliJ IDEA project files
-.idea/
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# IntelliJ
 *.iml
-*.ipr
 *.iws
-workspace.xml
-tasks.xml
-usage.statistics.xml
-dictionaries
-shelf
+.idea/
 
-# IntelliJ IDEA plugin specific files
-.idea_modules/
-.idea/**/mongoSettings.xml
+# Compiled class files
+bin/
+target/
 
-# IntelliJ IDEA caches
-.idea/**/caches/build_file_checksums.ser
-
-# IntelliJ IDEA serialized cache file
-.idea/caches/scopes_registry.ser
-
-# IntelliJ IDEA Gradle and Maven with auto-import
-.idea/artifacts
-.idea/compiler.xml
-.idea/jarRepositories.xml
-.idea/modules.xml
-.idea/*.iml
-.idea/modules
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Build directories
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+out/
 
-### VS Code ###
-.vscode/
+# Temporary files
+*.log
+*.tmp
 
-### Mac OS ###
+# OS-specific files
 .DS_Store
+Thumbs.db
