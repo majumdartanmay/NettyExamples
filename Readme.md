@@ -25,9 +25,9 @@ The architechture looks like this
 
 <pre>
 Socket -> Read/Write --
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\\
-Socket -> Read/Write&emsp;&emsp;---> Selectors -> Thread
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;\/
+			\
+Socket -> Read/Write	---> Selectors -> Thread
+			/
 Socket -> Read/Write--
 
 Using the event notification API, selectors understand which _non blocking_ socket is ready for IO
