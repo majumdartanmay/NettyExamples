@@ -8,6 +8,4 @@ Before we start with actual netty implementations, we will discuss the philosoph
 
 ### Networking in Java
 
-Earlier networking in java meant dealing directlly with the C socket libraries
-
-
+Earlier networking in java meant dealing directlly with the C socket libraries. Look up the example at [BeforeNettyExample](/BeforeNettyExample) to understand what I mean.
